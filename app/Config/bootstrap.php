@@ -29,7 +29,7 @@ Cache::config('default', array('engine' => 'File'));
  * DegubKit load
  */
 CakePlugin::load('DebugKit');
-
+CakePlugin::load(array('TwitterBootstrap'));
 /**
  * The settings below can be used to set additional paths to models, views and controllers.
  *
